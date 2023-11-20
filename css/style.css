@@ -1,0 +1,18 @@
+    .first {
+        background-color: red;
+        animation: color 2s ease 1;
+    }
+
+    .last {
+        background-color: green;
+        animation: color 2s ease 1;
+    }
+
+    @keyframes color {
+        from {
+            background-color: inherit;
+        }
+        to {
+            background-color: transparent;
+        }
+    }
